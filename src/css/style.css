@@ -2,9 +2,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 96px;
+    background-color: red;
+}
+
+.nav-bar .logo-menu .toggle-menu {
+    background: transparent;
+    border: none;
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+.nav-bar .logo-menu .toggle-menu img {
+    width: 20px;
+    height: 20px;
+  
 }
 
 .nav-bar .login-buttons a{
     text-decoration: none;
-    color: black;
+    padding: 30px;
+    background-color: black;
+}
+
+.nav-bar .login-buttons > a img {
+    width: 20px;
+    height: 20px;
 }
