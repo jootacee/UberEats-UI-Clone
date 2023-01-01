@@ -21,8 +21,21 @@
 
 .nav-bar .login-buttons a{
     text-decoration: none;
-    padding: 30px;
+    padding: 20px 25px;
     background-color: black;
+    border-radius: 60px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.nav-bar .login-buttons .login-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+}
+
+.nav-bar .login-buttons .register-btn {
+    background-color: #000;
+    color: #fff;
 }
 
 .nav-bar .login-buttons > a img {
